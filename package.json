@@ -1,0 +1,33 @@
+{
+  "name": "smart-wardrobe-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx,.vue"
+  },
+  "dependencies": {
+    "@motionone/vue": "^10.16.4",
+    "@vueuse/core": "^10.10.0",
+    "axios": "^1.6.0",
+    "chart.js": "^4.4.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.0",
+    "vue-chartjs": "^5.3.1",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0"
+  }
+}
